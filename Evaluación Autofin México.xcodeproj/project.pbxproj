@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB7DC92324998A7200B67667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7DC92224998A7200B67667 /* AppDelegate.swift */; };
+		EB7DC92524998A7200B67667 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7DC92424998A7200B67667 /* SceneDelegate.swift */; };
+		EB7DC92724998A7200B67667 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7DC92624998A7200B67667 /* ViewController.swift */; };
+		EB7DC92A24998A7200B67667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7DC92824998A7200B67667 /* Main.storyboard */; };
+		EB7DC92C24998A7300B67667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7DC92B24998A7300B67667 /* Assets.xcassets */; };
+		EB7DC92F24998A7300B67667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7DC92D24998A7300B67667 /* LaunchScreen.storyboard */; };
+		EB7DC9452499A46700B67667 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7DC9442499A46700B67667 /* TableViewCell.swift */; };
+		EB7DC9522499C55700B67667 /* WeatherDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7DC9512499C55700B67667 /* WeatherDetailViewController.swift */; };
+		EB7DC9542499C59900B67667 /* WeatherDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7DC9532499C59900B67667 /* WeatherDetailPresenter.swift */; };
+		EB7DC9572499C5E100B67667 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7DC9562499C5E100B67667 /* RequestManager.swift */; };
+		EB7DC95A2499E63900B67667 /* CityWeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7DC9592499E63900B67667 /* CityWeatherInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB7DC91F24998A7200B67667 /* Evaluación Autofin México.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Evaluación Autofin México.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7DC92224998A7200B67667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB7DC92424998A7200B67667 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EB7DC92624998A7200B67667 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB7DC92924998A7200B67667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB7DC92B24998A7300B67667 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB7DC92E24998A7300B67667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB7DC93024998A7300B67667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB7DC9442499A46700B67667 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		EB7DC9512499C55700B67667 /* WeatherDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailViewController.swift; sourceTree = "<group>"; };
+		EB7DC9532499C59900B67667 /* WeatherDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailPresenter.swift; sourceTree = "<group>"; };
+		EB7DC9562499C5E100B67667 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		EB7DC9592499E63900B67667 /* CityWeatherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityWeatherInfo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB7DC91C24998A7200B67667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB7DC91624998A7200B67667 = {
+			isa = PBXGroup;
+			children = (
+				EB7DC92124998A7200B67667 /* Evaluación Autofin México */,
+				EB7DC92024998A7200B67667 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB7DC92024998A7200B67667 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB7DC91F24998A7200B67667 /* Evaluación Autofin México.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB7DC92124998A7200B67667 /* Evaluación Autofin México */ = {
+			isa = PBXGroup;
+			children = (
+				EB7DC9582499E5D300B67667 /* Models */,
+				EB7DC9552499C5C000B67667 /* Network */,
+				EB7DC9502499C52200B67667 /* WeatherDetail */,
+				EB7DC92224998A7200B67667 /* AppDelegate.swift */,
+				EB7DC92424998A7200B67667 /* SceneDelegate.swift */,
+				EB7DC92624998A7200B67667 /* ViewController.swift */,
+				EB7DC9442499A46700B67667 /* TableViewCell.swift */,
+				EB7DC92824998A7200B67667 /* Main.storyboard */,
+				EB7DC92D24998A7300B67667 /* LaunchScreen.storyboard */,
+				EB7DC92B24998A7300B67667 /* Assets.xcassets */,
+				EB7DC93024998A7300B67667 /* Info.plist */,
+			);
+			path = "Evaluación Autofin México";
+			sourceTree = "<group>";
+		};
+		EB7DC9502499C52200B67667 /* WeatherDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EB7DC9512499C55700B67667 /* WeatherDetailViewController.swift */,
+				EB7DC9532499C59900B67667 /* WeatherDetailPresenter.swift */,
+			);
+			path = WeatherDetail;
+			sourceTree = "<group>";
+		};
+		EB7DC9552499C5C000B67667 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EB7DC9562499C5E100B67667 /* RequestManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EB7DC9582499E5D300B67667 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB7DC9592499E63900B67667 /* CityWeatherInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB7DC91E24998A7200B67667 /* Evaluación Autofin México */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB7DC93324998A7300B67667 /* Build configuration list for PBXNativeTarget "Evaluación Autofin México" */;
+			buildPhases = (
+				EB7DC91B24998A7200B67667 /* Sources */,
+				EB7DC91C24998A7200B67667 /* Frameworks */,
+				EB7DC91D24998A7200B67667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Evaluación Autofin México";
+			productName = "Evaluación Autofin México";
+			productReference = EB7DC91F24998A7200B67667 /* Evaluación Autofin México.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB7DC91724998A7200B67667 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Pedro Cervantes";
+				TargetAttributes = {
+					EB7DC91E24998A7200B67667 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = EB7DC91A24998A7200B67667 /* Build configuration list for PBXProject "Evaluación Autofin México" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB7DC91624998A7200B67667;
+			productRefGroup = EB7DC92024998A7200B67667 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB7DC91E24998A7200B67667 /* Evaluación Autofin México */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB7DC91D24998A7200B67667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7DC92F24998A7300B67667 /* LaunchScreen.storyboard in Resources */,
+				EB7DC92C24998A7300B67667 /* Assets.xcassets in Resources */,
+				EB7DC92A24998A7200B67667 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB7DC91B24998A7200B67667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7DC9522499C55700B67667 /* WeatherDetailViewController.swift in Sources */,
+				EB7DC9452499A46700B67667 /* TableViewCell.swift in Sources */,
+				EB7DC9542499C59900B67667 /* WeatherDetailPresenter.swift in Sources */,
+				EB7DC9572499C5E100B67667 /* RequestManager.swift in Sources */,
+				EB7DC92724998A7200B67667 /* ViewController.swift in Sources */,
+				EB7DC92324998A7200B67667 /* AppDelegate.swift in Sources */,
+				EB7DC95A2499E63900B67667 /* CityWeatherInfo.swift in Sources */,
+				EB7DC92524998A7200B67667 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB7DC92824998A7200B67667 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB7DC92924998A7200B67667 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB7DC92D24998A7300B67667 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB7DC92E24998A7300B67667 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB7DC93124998A7300B67667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB7DC93224998A7300B67667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB7DC93424998A7300B67667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Evaluación Autofin México/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pedrocervantes.Evaluacio-n-Autofin-Me-xico";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB7DC93524998A7300B67667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Evaluación Autofin México/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pedrocervantes.Evaluacio-n-Autofin-Me-xico";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB7DC91A24998A7200B67667 /* Build configuration list for PBXProject "Evaluación Autofin México" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7DC93124998A7300B67667 /* Debug */,
+				EB7DC93224998A7300B67667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB7DC93324998A7300B67667 /* Build configuration list for PBXNativeTarget "Evaluación Autofin México" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7DC93424998A7300B67667 /* Debug */,
+				EB7DC93524998A7300B67667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB7DC91724998A7200B67667 /* Project object */;
+}
